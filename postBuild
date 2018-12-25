@@ -1,3 +1,4 @@
+julia -e "Pkg.pin(\"WebIO\", v\"0.1.7\")"
 cd /srv/julia/pkg/v0.6/WebIO/assets/
 jupyter labextension install webio
 jupyter labextension enable webio/jupyterlab_entry
